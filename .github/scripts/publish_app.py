@@ -51,7 +51,8 @@ def main():
     existing=next((r for r in releases if r['tag_name']==tag),None)
     release=existing or api('releases','POST',{'tag_name':tag,'target_commitish':os.environ['GITHUB_SHA'],
         'name':'饮食日记 '+m['version']+' ('+str(m['versionCode'])+')','body':body,'draft':True})
-    for f in dist.iterdir():upload(release,f)
+    for name in ('diet-diary.apk','UPDATE.json','BUILD_INFO.json','SHA256SUMS.txt'):
+        upload(release,dist/name)
     api('releases/'+str(release['id']),'PATCH',{'draft':False,'make_latest':'true','body':body})
     print('Published '+release['html_url'])
     if 'GITHUB_STEP_SUMMARY' in os.environ:
