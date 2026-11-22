@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "runNumber": 18,
-  "sourceCommit": "a6c838d8dffc167cc879321ab5c79d927e92467e",
+  "runNumber": 19,
+  "sourceCommit": "2e5feb18eebafca841e11010a0c93ce846bbc812",
   "update": {
     "schemaVersion": 1,
     "packageName": "com.opennutritracker.ont.opennutritracker",
-    "version": "2.8.3",
-    "versionCode": 1018,
-    "bytes": 43422257,
-    "sha256": "5a7015fad8e40788224f252c3b5844edecba152f7e8779d0996842c38bcd886c"
+    "version": "2.8.4",
+    "versionCode": 1019,
+    "bytes": 43422165,
+    "sha256": "748825efff71ddc2e7f0a13581c8d1e124cb2327d16a4b84a02ccb18b8a92ee2"
   },
-  "apkUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/1465222295/548a08cb-e823-4775-b692-c6c14405583e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-22T17%3A14%3A04Z&rscd=attachment%3B+filename%3Ddiet-diary.apk&rsct=application%2Fvnd.android.package-archive&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-22T16%3A13%3A41Z&ske=2026-11-22T17%3A14%3A04Z&sks=b&skv=2018-11-09&sig=3FHo2ZbnKgiCmGIuZOzKx%2B1kXEpNOXzlAmPPbABlugc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTM2NjIwNCwibmJmIjoxNzk1MzY0NDA0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.u6sh0qshRf-36vMyrrvapXZoiN9LWixCU8H4xX2Py7Y&response-content-disposition=attachment%3B%20filename%3Ddiet-diary.apk&response-content-type=application%2Fvnd.android.package-archive",
+  "apkUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/1465222295/8b0cc3ad-8996-4153-8b9f-c5717845905a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-22T19%3A00%3A17Z&rscd=attachment%3B+filename%3Ddiet-diary.apk&rsct=application%2Fvnd.android.package-archive&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-22T18%3A00%3A03Z&ske=2026-11-22T19%3A00%3A17Z&sks=b&skv=2018-11-09&sig=T%2BbQjLOb5M0LXL2r16d64y0P4umhDcFJvAfeEG73i2w%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTM3MjY3MywibmJmIjoxNzk1MzcwODczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.mnDHcVoWK-BF3r6Mznkty4sQ3hgGSeRMLuc2lSQk29c&response-content-disposition=attachment%3B%20filename%3Ddiet-diary.apk&response-content-type=application%2Fvnd.android.package-archive",
   "buildInfo": {
-    "apk_sha256": "5a7015fad8e40788224f252c3b5844edecba152f7e8779d0996842c38bcd886c",
+    "apk_sha256": "748825efff71ddc2e7f0a13581c8d1e124cb2327d16a4b84a02ccb18b8a92ee2",
     "catalog_sha256": "6c1a472f08b4a03a305cbd798b8f3babfb23f7428ff6c2bf7984f63e2a741847",
     "food_count": 19546,
     "abis": [
