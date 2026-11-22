@@ -34,9 +34,9 @@ jobs:
       - name: Verify immutable CDN download before announcing
         run: python tools/publish_manifest.py --commit "$DATA_COMMIT" --sequence "${{ github.run_number }}"
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
       - name: Deploy version notification
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
