@@ -43,6 +43,7 @@ def main():
             if count>m['bytes']:raise ValueError('APK exceeds declared size')
             h.update(chunk);out.write(chunk)
     assert count==m['bytes'] and h.hexdigest()==m['sha256'],'APK checksum mismatch'
+    m['releaseTag']='apk-'+str(n)
     (dist/'UPDATE.json').write_text(json.dumps(m,indent=2)+'\n')
     (dist/'BUILD_INFO.json').write_text(json.dumps(payload['buildInfo'],ensure_ascii=False,indent=2)+'\n')
     (dist/'SHA256SUMS.txt').write_text(m['sha256']+'  diet-diary.apk\n')
