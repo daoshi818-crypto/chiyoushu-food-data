@@ -23,6 +23,7 @@ jobs:
         run: |
           python tools/build_catalog.py
           python tools/validate_catalog.py
+          python tools/test_categories.py
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add dist/catalog.json
